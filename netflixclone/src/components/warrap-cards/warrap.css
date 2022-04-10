@@ -1,0 +1,38 @@
+.warrap-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.warrap-cards > .cards{
+    width: 13em;
+    height: 10rem;
+    border: 1px solid rgba(113, 110, 110, .1);
+    margin: 0 auto;
+    margin-bottom: .8rem;
+    border-radius: 10px;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms;
+}
+
+.warrap-cards > .cards:hover{
+    transform: translatey(-10px);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    animation: 2s click infinite;
+}
+
+@keyframes click {
+    0%{
+        transform: translatey(0);
+    }
+    50%{
+        transform: translatey(-20px);
+    }
+    100%{
+        transform: translatey(0);
+    }
+}

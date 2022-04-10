@@ -1,0 +1,26 @@
+:root{
+  --small-width: 80vw;
+  --med-width: 90%;
+  --larg-width: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+.container{
+  color: wheat;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+
+  height: 100vh;
+  width: var(--small-width);
+
+  position: relative;
+
+  color: black;
+}
